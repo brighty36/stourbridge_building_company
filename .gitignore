@@ -1,0 +1,22 @@
+# Windows and macOS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Local and temporary files
+*.log
+*.tmp
+~$*
+.env
+.env.*
+!.env.example
+
+# Optional local tooling
+node_modules/
+.wrangler/
+.dev.vars

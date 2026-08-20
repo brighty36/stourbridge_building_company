@@ -2,6 +2,10 @@
 
 A plain HTML, CSS and small vanilla JavaScript website. There is no framework and no build step.
 
+## Pages
+
+The draft includes the home page, five service pages, four location pages, projects, about, contact, privacy and a custom 404 page.
+
 ## Preview
 
 Open `index.html` directly, or serve the folder with any local static-file server.
@@ -13,18 +17,27 @@ Open `index.html` directly, or serve the folder with any local static-file serve
 - Placeholder domain: `https://www.testbuilding.com`
 - Owner name and verified owner story
 - Legal business identity and correspondence address
-- Years of experience
 - Insurance claim
 - Testimonials and project descriptions
-- All Picsum images, following `photos-needed.md`
+- Temporary project images, following `photos-needed.md`
 - Privacy notice placeholders
 
-Search the project for `PLACEHOLDER`, `REPLACE`, `CONFIRM`, `[XX]` and `[OWNER NAME]` before publication.
+Search the project for `PLACEHOLDER`, `REPLACE`, `CONFIRM` and `[OWNER NAME]` before publication.
 
 ## Enquiry form
 
 The form on `contact.html` is deliberately cosmetic. `script.js` stops submission and tells the visitor that nothing was sent. Connect a real endpoint and revise the privacy notice before removing that behaviour.
 
-## Deployment
+## GitHub Pages
 
-The files can be uploaded as-is to Cloudflare Pages. Set the build command to blank and the output directory to the folder containing `index.html`. Replace the placeholder domain in canonical links, structured data, `robots.txt` and `sitemap.xml` first.
+The site can be published directly from the repository root with GitHub Pages. In the repository, open **Settings → Pages**, choose **Deploy from a branch**, then select `main` and `/ (root)`.
+
+The expected project URL is:
+
+`https://brighty36.github.io/stourbridge_building_company/`
+
+Before public launch, replace the placeholder domain in canonical links, structured data, `robots.txt` and `sitemap.xml`.
+
+## Licence
+
+The website is supplied under an all-rights-reserved notice. See `LICENSE.md`.
