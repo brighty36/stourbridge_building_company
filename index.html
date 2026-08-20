@@ -13,7 +13,7 @@
   <meta property="og:url" content="https://www.tsolebuilding.co.uk/">
   <meta property="og:image" content="https://www.tsolebuilding.co.uk/images/TSole%20logo.png">
   <meta property="og:image:alt" content="T Sole Building logo">
-  <link rel="icon" href="images/TSole%20logo.png" type="image/png"><link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/TSole%20logo.png" type="image/png"><link rel="stylesheet" href="styles.css?v=20260820-2">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -57,23 +57,26 @@
   </header>
 
   <main id="main">
-    <section class="hero">
-      <div class="hero-media">
-        <img src="images/elise-brown-ebrpvrJQu-0-unsplash.jpg" width="1600" height="1000" alt="Temporary image of a tiled patio outside a brick house" fetchpriority="high">
-        <!-- REPLACE: wide exterior shot of the company's best completed rear extension in the Stourbridge area -->
+    <section class="hero carousel-hero" data-carousel aria-roledescription="carousel" aria-label="Recent building work">
+      <div class="hero-carousel" aria-live="polite">
+        <div class="hero-slide is-active" data-carousel-slide><img src="images/elise-brown-ebrpvrJQu-0-unsplash.jpg" width="1600" height="900" alt="Temporary image of a tiled patio outside a brick house" fetchpriority="high"><!-- REPLACE: wide exterior shot of the company's best completed rear extension in the Stourbridge area --></div>
+        <div class="hero-slide" data-carousel-slide hidden><img src="images/salvo-media-llc-cyPTV1MY844-unsplash.jpg" width="1600" height="900" alt="Temporary image of a large open-plan interior with glazing"><!-- REPLACE: completed open-plan structural alteration in Stourbridge --></div>
+        <div class="hero-slide" data-carousel-slide hidden><img src="images/tile-merchant-ireland-bMOwrJLFQJY-unsplash.jpg" width="1600" height="900" alt="Temporary image of a paved garden patio"><!-- REPLACE: finished patio and groundworks project in the Stourbridge area --></div>
       </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
       <div class="container hero-content">
         <p class="eyebrow on-dark">Local builders · West Midlands</p>
         <h1>Make more of your home.</h1>
         <p class="lede">Extensions, conversions and structural work by a small local team. You deal directly with the builder doing the job.</p>
         <div class="button-row">
           <a class="btn" href="tel:+441384000000">Call 01384 000 000</a>
-          <a class="btn btn-outline" href="contact.html">Get a free quote</a>
+          <a class="btn btn-outline btn-outline-light" href="contact.html">Get a free quote</a>
         </div>
         <div class="proof-line" aria-label="Service highlights">
           <span>Clear written quotes</span><span>One point of contact</span><span>Local team</span>
         </div>
       </div>
+      <div class="carousel-controls hero-carousel-controls" aria-label="Choose a project image"><button class="carousel-arrow" type="button" data-carousel-prev aria-label="Previous image">←</button><div class="carousel-status" aria-live="polite"><span data-carousel-current>1</span> / 3</div><button class="carousel-arrow" type="button" data-carousel-next aria-label="Next image">→</button></div>
     </section>
 
     <aside class="trust-strip" aria-label="Why choose us">

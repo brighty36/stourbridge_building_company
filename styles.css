@@ -167,7 +167,7 @@ p { margin: 0 0 1rem; }
 }
 
 .header-inner {
-  min-height: 4.75rem;
+  min-height: 4.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -183,8 +183,8 @@ p { margin: 0 0 1rem; }
 
 .brand-logo-frame {
   display: block;
-  width: clamp(8.25rem, 15vw, 10.75rem);
-  height: 4rem;
+  width: clamp(6.25rem, 10vw, 7.5rem);
+  height: 3rem;
   overflow: hidden;
 }
 
@@ -196,8 +196,8 @@ p { margin: 0 0 1rem; }
 }
 
 .site-footer .brand-logo-frame {
-  width: 12rem;
-  height: 4.5rem;
+  width: 9rem;
+  height: 3.6rem;
 }
 
 .header-actions {
@@ -376,6 +376,7 @@ p { margin: 0 0 1rem; }
 .carousel-hero .breadcrumbs a { color: var(--accent); }
 .carousel-hero .breadcrumbs { color: #d7dcd9; }
 .carousel-hero .lede { color: var(--white); }
+.carousel-hero .proof-line { color: #eee8df; }
 
 .btn-outline-light {
   border-color: var(--white);
@@ -783,7 +784,7 @@ p { margin: 0 0 1rem; }
 .error-code { color: var(--accent); font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: clamp(6rem, 30vw, 16rem); font-weight: 950; line-height: 0.75; }
 
 @media (max-width: 23rem) {
-  .site-header .brand-logo-frame { width: 7.25rem; }
+  .site-header .brand-logo-frame { width: 5.75rem; height: 2.7rem; }
   .header-actions { gap: 0.35rem; }
   .header-phone { font-size: 0.82rem; }
 }
@@ -805,11 +806,11 @@ p { margin: 0 0 1rem; }
 
 @media (min-width: 64rem) {
   body { padding-bottom: 0; }
-  .header-inner { min-height: 5.4rem; }
+  .header-inner { min-height: 4.5rem; }
   .menu-toggle { display: none; }
   .site-nav { position: static; display: block; min-height: 0; padding: 0; background: transparent; }
   .nav-list { display: flex; align-items: center; gap: 1.1rem; }
-  .nav-list a { padding: 1.9rem 0; border: 0; font-size: 0.84rem; }
+  .nav-list a { padding: 1.45rem 0; border: 0; font-size: 0.84rem; }
   .nav-group-label { display: none; }
   .nav-mobile-only { display: none; }
   .header-phone { font-size: 1rem; }
