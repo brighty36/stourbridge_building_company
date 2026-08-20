@@ -1,4 +1,4 @@
-# Test Building Company — draft website
+# T Sole Building — draft website
 
 A plain HTML, CSS and small vanilla JavaScript website. There is no framework and no build step.
 
@@ -14,7 +14,7 @@ Open `index.html` directly, or serve the folder with any local static-file serve
 
 - Phone display: `01384 000 000`
 - Phone links and WhatsApp number: `+441384000000`
-- Placeholder domain: `https://www.testbuilding.com`
+- Placeholder domain: `https://www.tsolebuilding.co.uk`
 - Owner name and verified owner story
 - Legal business identity and correspondence address
 - Insurance claim
