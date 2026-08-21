@@ -167,7 +167,7 @@ p { margin: 0 0 1rem; }
 }
 
 .header-inner {
-  min-height: 4.25rem;
+  min-height: 5.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -806,7 +806,7 @@ p { margin: 0 0 1rem; }
 
 @media (min-width: 64rem) {
   body { padding-bottom: 0; }
-  .header-inner { min-height: 4.5rem; }
+  .header-inner { min-height: 5.5rem; }
   .menu-toggle { display: none; }
   .site-nav { position: static; display: block; min-height: 0; padding: 0; background: transparent; }
   .nav-list { display: flex; align-items: center; gap: 1.1rem; }
